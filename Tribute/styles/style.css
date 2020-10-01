@@ -1,17 +1,12 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
 html{
-  background: url(../images/code.png) no-repeat center fixed;
-  background-size: cover; 
-  /* 
+  background: url() no-repeat center fixed;
+  background-size: cover;
+  /*
     Fill the entire page with the image (no white space)
     Scale image as needed
     Center image on page
     Do not cause scrollbars
-*/  
+*/
 }
 
 body {
@@ -21,14 +16,4 @@ body {
 h1 {
 	font-size:50px;
   text-shadow: 2px 2px 5px white;
-}
-
-.code-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /*This transformation is characterized by a two-dimensional vector. Its coordinates define how much the element moves in each direction.*/
-  color: black;
 }
