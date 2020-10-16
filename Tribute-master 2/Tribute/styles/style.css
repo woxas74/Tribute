@@ -1,0 +1,19 @@
+html{
+  background: url() no-repeat center fixed;
+  background-size: cover;
+  /*
+    Fill the entire page with the image (no white space)
+    Scale image as needed
+    Center image on page
+    Do not cause scrollbars
+*/
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size:50px;
+  text-shadow: 2px 2px 5px white;
+}
